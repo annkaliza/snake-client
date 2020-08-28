@@ -3,6 +3,10 @@ const { connect } = require('./client');
 console.log('Connecting ...');
 connect();
 
-connect().on("Name:AKA", function(){
+connect().on("Move: up", function(){
 
 });
+
+// connect().on("Name:AKA", function(){
+
+// });
