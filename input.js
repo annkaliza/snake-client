@@ -19,7 +19,7 @@ const handleUserInput = function (key) {
     if (key === "\u0003") {
       process.exit();
     }
-    connection.on("Move: up", function(){
+connection.on('data', (data = 'Move: up') => {
 
 });
 };
