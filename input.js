@@ -20,6 +20,8 @@ const handleUserInput = function (key) {
       process.exit();
     }
 connection.on('data', (data = 'Move: up') => {
+  const stdout= process.stdout;
+  stdout.write("Say: HELLO");
 
 });
 };
